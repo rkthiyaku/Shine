@@ -1,0 +1,149 @@
+
+Administrator@VASTSERVER MINGW64 ~
+$ cd E:/thiya/thiyaku/project/Own/Shine
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine
+$ git init
+Initialized empty Git repository in E:/Thiya/Thiyaku/Project/Own/Shine/.git/
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git add README.md
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git commit -m "first Commit"
+[master (root-commit) 198dbcc] first Commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 README.md
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git remote add origin https://github.com/rkthiyaku/Shine.git
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rkthiyaku/Shine.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git add .
+warning: LF will be replaced by CRLF in css/font-awesome.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/fonts/fontawesome-webfont.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/custom-scripts.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery.isotope.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery.prettyPhoto.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/mousescroll.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/smoothscroll.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/wow.min.js.
+The file will have its original line endings in your working directory.
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git add index.html
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git commit -m "first Commit"
+[master f68d86e] first Commit
+ 53 files changed, 13406 insertions(+)
+ create mode 100644 css/animate.min.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/font-awesome.min.css
+ create mode 100644 css/fonts/FontAwesome.otf
+ create mode 100644 css/fonts/fontawesome-webfont.eot
+ create mode 100644 css/fonts/fontawesome-webfont.svg
+ create mode 100644 css/fonts/fontawesome-webfont.ttf
+ create mode 100644 css/fonts/fontawesome-webfont.woff
+ create mode 100644 css/fonts/fontawesome-webfont.woff2
+ create mode 100644 css/images/Thumbs.db
+ create mode 100644 css/images/bg1.png
+ create mode 100644 css/images/btnNext.png
+ create mode 100644 css/images/btnPrevious.png
+ create mode 100644 css/images/contentPattern.png
+ create mode 100644 css/images/contentPatternBottom.png
+ create mode 100644 css/images/contentPatternLeft.png
+ create mode 100644 css/images/contentPatternRight.png
+ create mode 100644 css/images/contentPatternTop.png
+ create mode 100644 css/images/default_thumbnail.gif
+ create mode 100644 css/images/loader.gif
+ create mode 100644 css/images/sprite.png
+ create mode 100644 css/images/sprite_next.png
+ create mode 100644 css/images/sprite_prev.png
+ create mode 100644 css/images/sprite_x.png
+ create mode 100644 css/images/sprite_y.png
+ create mode 100644 css/prettyPhoto.css
+ create mode 100644 css/styles.css
+ create mode 100644 demo/01.jpg
+ create mode 100644 demo/02.jpg
+ create mode 100644 demo/03.jpg
+ create mode 100644 demo/04.jpg
+ create mode 100644 demo/05.jpg
+ create mode 100644 demo/06.jpg
+ create mode 100644 demo/07.jpg
+ create mode 100644 demo/08.jpg
+ create mode 100644 demo/1.jpg
+ create mode 100644 demo/2.jpg
+ create mode 100644 demo/3.jpg
+ create mode 100644 demo/4.jpg
+ create mode 100644 demo/Thumbs.db
+ create mode 100644 demo/about.png
+ create mode 100644 demo/pic1.jpg
+ create mode 100644 demo/pic2.jpg
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/custom-scripts.js
+ create mode 100644 js/jquery.inview.min.js
+ create mode 100644 js/jquery.isotope.min.js
+ create mode 100644 js/jquery.js
+ create mode 100644 js/jquery.prettyPhoto.js
+ create mode 100644 js/mousescroll.js
+ create mode 100644 js/smoothscroll.js
+ create mode 100644 js/wow.min.js
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git remote add origin https://github.com/rkthiyaku/Shine.git
+fatal: remote origin already exists.
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git add sample.txt
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git remote -v
+origin  https://github.com/rkthiyaku/Shine.git (fetch)
+origin  https://github.com/rkthiyaku/Shine.git (push)
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$ git push origin master
+Counting objects: 60, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (60/60), done.
+Writing objects: 100% (60/60), 2.15 MiB | 52.00 KiB/s, done.
+Total 60 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/rkthiyaku/Shine.git
+   198dbcc..f68d86e  master -> master
+
+Administrator@VASTSERVER MINGW64 /e/thiya/thiyaku/project/Own/Shine (master)
+$
